@@ -4,7 +4,11 @@ class Kisi:
 		self.yas=yas
 
 	def karsilama(self):
-		print("Hos geldin",self.ad)
+		print("Hos geldin ",self.ad)
+
+	def ugurlama(self):
+		print("Güle güle ",self.ad) 
 
 kisi=Kisi("Gülcan",31)
 kisi1.karsilama()
+kisi1.ugurlama()
